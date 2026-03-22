@@ -1,0 +1,42 @@
+body {
+  margin:0;
+  font-family: Arial;
+  background:#0f172a;
+  color:white;
+}
+
+nav {
+  display:flex;
+  justify-content:space-between;
+  padding:20px;
+  background:#020617;
+}
+
+section {
+  padding:100px 20px;
+  text-align:center;
+}
+
+h1, h2 {
+  color:#38bdf8;
+}
+
+.skills span {
+  margin:5px;
+  padding:10px;
+  background:#2563eb;
+  border-radius:10px;
+  display:inline-block;
+}
+
+.card {
+  background:#1e293b;
+  padding:20px;
+  margin:10px;
+  border-radius:15px;
+  transition:0.3s;
+}
+
+.card:hover {
+  transform:scale(1.05);
+}
