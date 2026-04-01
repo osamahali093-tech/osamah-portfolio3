@@ -477,3 +477,6 @@ h3 { font-size: 1.2rem; margin-bottom: .8rem; }
   background: var(--card);
   transform: translateY(-2px);
 }
+.nav a.active {
+  color: var(--accent);
+}
