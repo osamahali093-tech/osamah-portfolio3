@@ -445,3 +445,17 @@ h3 { font-size: 1.2rem; margin-bottom: .8rem; }
   .section { padding: 4.5rem 0; }
   .hero { padding-top: 5.3rem; }
 }
+.project-card,
+.skill-card,
+.stat-card,
+.contact-card {
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.project-card:hover,
+.skill-card:hover,
+.stat-card:hover,
+.contact-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 30px 60px rgba(0,0,0,0.35);
+}
