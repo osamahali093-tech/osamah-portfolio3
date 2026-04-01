@@ -52,21 +52,6 @@ document.addEventListener('mousemove', (e) => {
   glow.style.left = e.clientX + 'px';
   glow.style.top = e.clientY + 'px';
 });
-const heroTitle = document.querySelector('.hero h1');
-
-const text = heroTitle.innerText;
-heroTitle.innerText = '';
-
-let i = 0;
-function typeEffect() {
-  if (i < text.length) {
-    heroTitle.innerText += text.charAt(i);
-    i++;
-    setTimeout(typeEffect, 25);
-  }
-}
-
-typeEffect();
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll(".nav a");
 
@@ -92,3 +77,4 @@ window.addEventListener("scroll", () => {
   document.querySelector('.orb-1').style.transform = `translateY(${scrolled * 0.2}px)`;
   document.querySelector('.orb-2').style.transform = `translateY(${scrolled * -0.2}px)`;
 });
+
