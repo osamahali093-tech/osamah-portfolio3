@@ -87,3 +87,8 @@ window.addEventListener("scroll", () => {
     }
   });
 });
+window.addEventListener("scroll", () => {
+  const scrolled = window.scrollY;
+  document.querySelector('.orb-1').style.transform = `translateY(${scrolled * 0.2}px)`;
+  document.querySelector('.orb-2').style.transform = `translateY(${scrolled * -0.2}px)`;
+});
